@@ -29,7 +29,7 @@ TODO or Required Code Improvement:
 4. IP, portnumber, Music name are hardcoded. It should be avoided.
 5. Trace class to be used instead of standard library std::cout interface.
 6. Member variables to be initialised with default values.
-7. AudioClient application is not checked for improvement.
+7. AudioClient application is not checked for improvement. 
 
 
 
