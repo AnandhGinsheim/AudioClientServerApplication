@@ -28,6 +28,7 @@ TODO or Required Code Improvement:
 5. Trace class to be used instead of standard library std::cout interface.
 6. Member variables to be initialised with default values.
 7. AudioClient application is not checked for improvement.
+8. Thrift should be used for communication between server and client.
 
 
 
