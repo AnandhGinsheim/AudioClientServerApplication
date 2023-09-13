@@ -33,6 +33,7 @@ TODO or Required Code Improvement:
 6. Member variables to be initialised with default values.
 7. AudioClient application is not checked for improvement.
 8. Thrift should be used for communication between server and client.
+9. CMake to be used to compile and generate Linux elf file.
 
 
 
