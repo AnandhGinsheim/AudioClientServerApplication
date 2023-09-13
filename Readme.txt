@@ -6,10 +6,14 @@ Music file - It is predefined.MusicSample1.mp3.
 Library used: SFML.
 
 High Level Design on Server side:
+
 MVC pattern - Model View Controller pattern.
 AudioModel is the Model of the application.
 Server,UserInput are view of the server.
 AudioController is the controller part.
+One client connection to server is implemented. 
+To scale it to many clients, All objects are created in Heap to facilitate any increase in number of clients.
+Object Oriented Analysis and Design is applied which makes decomposition of the classes as the details are given below.
 
 Class details on Server side :
 ApplicationMain has main function, starts the server, Loads the file and Start listening to client.
