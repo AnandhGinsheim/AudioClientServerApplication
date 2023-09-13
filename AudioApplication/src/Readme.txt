@@ -10,6 +10,9 @@ MVC pattern - Model View Controller pattern.
 AudioModel is the Model of the application.
 Server,UserInput are view of the server.
 AudioController is the controller part.
+One client connection to server is implemented. 
+To scale it to many clients, All objects are created in Heap to facilitate any increase in number of clients.
+Object Oriented Analysis and Design is applied which makes decomposition of the classes as the details are given below.
 
 Class details on Server side :
 ApplicationMain has main function, starts the server, Loads the file and Start listening to client.
@@ -29,6 +32,7 @@ TODO or Required Code Improvement:
 6. Member variables to be initialised with default values.
 7. AudioClient application is not checked for improvement.
 8. Thrift should be used for communication between server and client.
+9. CMake to be used to compile and generate Linux elf file.
 
 
 
