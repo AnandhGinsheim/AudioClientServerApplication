@@ -4,6 +4,8 @@ Project Name: AudioApplication for Server application.  AudioClient for client a
 Features Implemented: P for playing the music, S for stoping the music, q for quiting the application.
 Music file - It is predefined.MusicSample1.mp3.
 Library used: SFML.
+Development Environment: Eclipse
+Language: C++14
 
 High Level Design on Server side:
 MVC pattern - Model View Controller pattern.
